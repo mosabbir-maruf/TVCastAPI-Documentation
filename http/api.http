@@ -1,0 +1,41 @@
+### Base URL
+@baseUrl = http://localhost:3030/api/v1
+
+### 1. Home
+GET {{baseUrl}}/home
+
+### 2. Channel Details
+GET {{baseUrl}}/channel/t-sports
+
+### 3. Channels by Category - Trending
+GET {{baseUrl}}/channels/trending?page=1
+
+### 4. Channels by Category - Sports
+GET {{baseUrl}}/channels/sports?page=1
+
+### 5. Channels by Category - News
+GET {{baseUrl}}/channels/news?page=1
+
+### 6. Channels by Category - Documentary
+GET {{baseUrl}}/channels/documentary?page=1
+
+### 7. Channels by Category - Kids
+GET {{baseUrl}}/channels/kids?page=1
+
+### 8. Channels by Category - Islamic
+GET {{baseUrl}}/channels/islamic?page=1
+
+### 9. Categories - Trending
+GET {{baseUrl}}/categories/trending?page=1
+
+### 10. Categories - Sports
+GET {{baseUrl}}/categories/sports?page=1
+
+### 11. Search Channels
+GET {{baseUrl}}/search?keyword=bbc&page=1
+
+### 12. Servers (Channel Sources)
+GET {{baseUrl}}/servers?id=t-sports
+
+### 13. Stream (Channel Source)
+GET {{baseUrl}}/stream?id=t-sports

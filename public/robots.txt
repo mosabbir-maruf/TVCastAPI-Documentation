@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /api/
+Disallow: /_next/
+Allow: /
+
+# Sitemaps
+Sitemap: https://docs-tvcastapi.vercel.app/sitemap.xml
+
